@@ -1,2 +1,0 @@
-# Munish
-Static portfolio page
