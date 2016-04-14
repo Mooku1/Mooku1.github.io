@@ -1,3 +1,3 @@
 ## Basic porfolio site
 
-[mooku1.github.io](LINK)
+[mooku1.github.io]
