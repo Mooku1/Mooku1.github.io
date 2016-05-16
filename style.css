@@ -3,6 +3,10 @@ h1 {
   color: black;
 }
 
+#about_me {
+  background-image: url('');
+}
+
 #image {
   float:left;
   width: 20%;
