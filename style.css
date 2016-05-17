@@ -1,9 +1,6 @@
 body {
   margin: 60px auto;
   width: 70%;
-}
-
-body{
   font-family: Roboto;
 }
 
@@ -23,4 +20,12 @@ h1 {
 
 #links {
   display: inline-block;
+}
+
+#button {
+  float: left;
+}
+
+a {
+  text-decoration: none;
 }

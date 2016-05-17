@@ -4,15 +4,17 @@
   <title></title>
 <link href='https://fonts.googleapis.com/css?family=Gudea|Roboto' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="javascript.js"></script>
 </head>
+
 <body>
 
 <header>
-  <h1 class="col col-sm-6">munish</h1><h1>CHATURVEDI</h1>
+  <h1 id="firstName" class="col col-sm-6">munish</h1><h1 id="lastName">CHATURVEDI</h1>
   <div class="col col-sm-6">
     <div id="links">
+      <a href="mailto:munishchaturvedi1@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
       <a href="http://www.github.com/mooku1" target="_blank"><i class="fa fa-github fa-1x"></i></a>
       <a href="https://www.linkedin.com/in/munish-chaturvedi-6a80ab84" target="_blank"><i class="fa fa-linkedin-square fa-1x"></i></a>
       <a href="https://plus.google.com/111621789866504895064/posts" target="_blank"><i class="fa fa-google fa-1x"></i></a>
@@ -40,6 +42,9 @@
       <a href="http://mooku1.github.io/tictactoe/">Tic Tac Toe</a>
 
       <p>I love to continuously learn and take on new challenges, which is why I love development.</p>
+    </div>
+    <div>
+      <button id="button" onclick="randomize()">Click Me</button>
     </div>
   </div>
 </div>
