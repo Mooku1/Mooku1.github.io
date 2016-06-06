@@ -8,6 +8,6 @@ function randomColors() {
 }
 
 $(document).ready(function() {
-
     $("body").fadeTo(1500, 1);
 });
+
